@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">NoteKonverter</string>
+    <string name="intro">Add a Samsung Notes (.sdocx), Boox Notes (.note) or Saber (.sba) file, then pick the format to convert each file to. The result is saved to the output folder. You can also add files by sharing them from other apps or with \"Open with\".</string>
+    <string name="add_files">Add files</string>
+    <string name="choose_folder">Choose output folder</string>
+    <string name="output_folder">Output folder: %1$s</string>
+    <string name="no_output_folder">No output folder chosen yet; you will be asked on the first conversion.</string>
+    <string name="eink_mode">E-ink mode</string>
+    <string name="eink_mode_hint">Black and white, no animations, larger touch targets</string>
+    <string name="language">Language</string>
+    <string name="language_system">System</string>
+    <string name="convert_all">Convert all</string>
+    <string name="files">Files</string>
+    <string name="no_files">No files added yet.</string>
+    <string name="clear">Clear</string>
+    <string name="reading">Reading…</string>
+    <string name="source_summary" translatable="false">%1$s · %2$s, %3$s</string>
+    <string name="convert_to">Convert to:</string>
+    <string name="target_label" translatable="false">%1$s (.%2$s)</string>
+    <string name="target_status" translatable="false">%1$s: %2$s</string>
+    <string name="waiting_for_folder">waiting for output folder…</string>
+    <string name="converting">converting…</string>
+    <string name="saved" translatable="false">✓ %1$s</string>
+    <string name="output_summary" translatable="false">%1$s · %2$s, %3$s</string>
+    <plurals name="pages">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+    <plurals name="strokes">
+        <item quantity="one">%d stroke</item>
+        <item quantity="other">%d strokes</item>
+    </plurals>
+    <string name="share">Share</string>
+    <string name="retry">Retry</string>
+    <string name="failed">Error: %1$s</string>
+
+    <string name="err_unknown_format">unrecognized file. Only Samsung .sdocx, Boox .note and Saber .sba are supported</string>
+    <string name="err_not_samsung">this is not a Samsung Notes .sdocx file</string>
+    <string name="err_not_boox">this is not a Boox .note file</string>
+    <string name="err_no_pages">the note has no pages</string>
+    <string name="err_saber_legacy">old Saber .sbn notes are not supported; open the note in Saber and export it again</string>
+    <string name="err_saber_no_note">no note (.sbn2) found in the Saber archive</string>
+    <string name="err_saber_corrupt">the Saber note could not be read</string>
+    <string name="err_read">the file could not be read</string>
+    <string name="err_write">the output file could not be written</string>
+    <string name="err_create">could not create a file in the output folder</string>
+    <string name="err_unexpected">unexpected error</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Converts handwritten notes between Samsung Notes (.sdocx), Boox Notes (.note) and Saber (.sba). Everything runs on this device; no data is collected or sent anywhere.</string>
+    <string name="about_data_loss_title">Risk of data loss</string>
+    <string name="about_data_loss">None of these formats is publicly documented; the converters are based on community reverse-engineering and are experimental. A conversion may lose or alter content (typed text, images, PDF backgrounds and templates are not converted), and an app update may make converted files unreadable. Always keep your original files and check the result before deleting anything. The app is provided "as is", without warranty of any kind, and the authors are not liable for any lost or damaged notes.</string>
+    <string name="about_trademarks_title">Trademarks</string>
+    <string name="about_trademarks">NoteKonverter is an independent project. It is not affiliated with, endorsed or sponsored by Samsung Electronics, Onyx International (Boox) or the Saber project. Samsung Notes, Boox and Saber are trademarks of their respective owners and are used here only to describe file compatibility.</string>
+    <string name="about_license">Open source under the MIT License.</string>
+</resources>

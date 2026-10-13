@@ -1,0 +1,51 @@
+<resources>
+    <string name="intro">Samsung Notes (.sdocx), Boox Notes (.note) veya Saber (.sba) dosyası ekleyin, ardından her dosya için dönüştürmek istediğiniz biçimi seçin. Sonuç çıktı klasörüne kaydedilir. Dosyaları başka uygulamalardan paylaşarak veya \"Birlikte aç\" ile de ekleyebilirsiniz.</string>
+    <string name="add_files">Dosya ekle</string>
+    <string name="choose_folder">Çıktı klasörünü seç</string>
+    <string name="output_folder">Çıktı klasörü: %1$s</string>
+    <string name="no_output_folder">Henüz çıktı klasörü seçilmedi; ilk dönüştürmede sorulacak.</string>
+    <string name="eink_mode">E-ink modu</string>
+    <string name="eink_mode_hint">Siyah-beyaz, animasyonsuz, büyük dokunma alanları</string>
+    <string name="language">Dil</string>
+    <string name="language_system">Sistem</string>
+    <string name="convert_all">Tümünü dönüştür</string>
+    <string name="files">Dosyalar</string>
+    <string name="no_files">Henüz dosya eklenmedi.</string>
+    <string name="clear">Temizle</string>
+    <string name="reading">Okunuyor…</string>
+    <string name="convert_to">Dönüştür:</string>
+    <string name="waiting_for_folder">çıktı klasörü bekleniyor…</string>
+    <string name="converting">dönüştürülüyor…</string>
+    <plurals name="pages">
+        <item quantity="one">%d sayfa</item>
+        <item quantity="other">%d sayfa</item>
+    </plurals>
+    <plurals name="strokes">
+        <item quantity="one">%d çizgi</item>
+        <item quantity="other">%d çizgi</item>
+    </plurals>
+    <string name="share">Paylaş</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="failed">Hata: %1$s</string>
+
+    <string name="err_unknown_format">tanınmayan dosya. Yalnızca Samsung .sdocx, Boox .note ve Saber .sba desteklenir</string>
+    <string name="err_not_samsung">bu bir Samsung Notes .sdocx dosyası değil</string>
+    <string name="err_not_boox">bu bir Boox .note dosyası değil</string>
+    <string name="err_no_pages">notta sayfa yok</string>
+    <string name="err_saber_legacy">eski Saber .sbn notları desteklenmiyor; notu Saber\'de açıp yeniden dışa aktarın</string>
+    <string name="err_saber_no_note">Saber arşivinde not dosyası (.sbn2) bulunamadı</string>
+    <string name="err_saber_corrupt">Saber notu okunamadı</string>
+    <string name="err_read">dosya okunamadı</string>
+    <string name="err_write">çıktı dosyası yazılamadı</string>
+    <string name="err_create">çıktı klasöründe dosya oluşturulamadı</string>
+    <string name="err_unexpected">beklenmeyen hata</string>
+    <string name="about">Hakkında</string>
+    <string name="close">Kapat</string>
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_description">El yazısı notları Samsung Notes (.sdocx), Boox Notes (.note) ve Saber (.sba) arasında dönüştürür. Her şey bu cihazda çalışır; hiçbir veri toplanmaz veya bir yere gönderilmez.</string>
+    <string name="about_data_loss_title">Veri kaybı riski</string>
+    <string name="about_data_loss">Bu biçimlerin hiçbirinin herkese açık belgesi yoktur; dönüştürücüler topluluğun tersine mühendislik çalışmalarına dayanır ve deneyseldir. Dönüştürme sırasında içerik kaybolabilir veya değişebilir (klavyeyle yazılmış metin, resimler, PDF arka planları ve şablonlar aktarılmaz) ve bir uygulama güncellemesi dönüştürülmüş dosyaları okunamaz hale getirebilir. Orijinal dosyalarınızı her zaman saklayın ve bir şey silmeden önce sonucu kontrol edin. Uygulama "olduğu gibi", hiçbir garanti olmaksızın sunulur; geliştiriciler kaybolan veya bozulan notlardan sorumlu tutulamaz.</string>
+    <string name="about_trademarks_title">Ticari markalar</string>
+    <string name="about_trademarks">NoteKonverter bağımsız bir projedir; Samsung Electronics, Onyx International (Boox) veya Saber projesiyle bağlantılı değildir, onlar tarafından onaylanmamış veya desteklenmemiştir. Samsung Notes, Boox ve Saber ilgili sahiplerinin ticari markalarıdır ve burada yalnızca dosya uyumluluğunu belirtmek için kullanılmıştır.</string>
+    <string name="about_license">MIT Lisansı ile açık kaynaktır.</string>
+</resources>

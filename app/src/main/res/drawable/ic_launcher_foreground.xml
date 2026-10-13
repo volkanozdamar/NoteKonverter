@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Two note pages with conversion arrows; kept inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.88"
+        android:scaleY="0.88">
+        <!-- Source note -->
+        <path
+            android:fillColor="#FF8FA9DC"
+            android:pathData="M33,26H57Q61,26 61,30V64Q61,68 57,68H33Q29,68 29,64V30Q29,26 33,26Z" />
+        <path
+            android:pathData="M34,34H55M34,41H44M34,48H44M34,55H44"
+            android:strokeWidth="2.4"
+            android:strokeColor="#FF5C7BBE"
+            android:strokeLineCap="round" />
+        <!-- Converted note with a handwriting stroke -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M50,38H69L79,48V78Q79,82 75,82H50Q46,82 46,78V42Q46,38 50,38Z" />
+        <path
+            android:fillColor="#FFC9D6F0"
+            android:pathData="M69,38V45Q69,48 72,48H79Z" />
+        <path
+            android:pathData="M51.5,58c1.6,-6 3.4,-6 4.6,-1s2.6,5.6 4.4,0.6s2.8,-6 4.4,-1s2.4,5 4.6,1.4s1.8,-3 3,-3.4"
+            android:strokeWidth="2.6"
+            android:strokeColor="#FF1E2F5C"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M52,68H72M52,75H64"
+            android:strokeWidth="2.4"
+            android:strokeColor="#FF8FA9DC"
+            android:strokeLineCap="round" />
+        <!-- Conversion arrows -->
+        <path
+            android:pathData="M64,25.5C71,25 75.5,28 76.5,33M42,84C35,84.5 31,81.5 30,76.5"
+            android:strokeWidth="3.6"
+            android:strokeColor="#FFFFB020"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#FFFFB020"
+            android:pathData="M71.5,32L81,32L76.2,39.5ZM25.5,77.5L35,77.5L30.2,70Z"
+            android:strokeWidth="1.2"
+            android:strokeColor="#FFFFB020"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>
