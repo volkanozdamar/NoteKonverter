@@ -14,16 +14,32 @@ android {
         minSdk = 24
         targetSdk = 37
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Release signing comes from the environment (GitHub Actions secrets). Without it,
+    // release builds fall back to the debug key so they still install.
+    val keystorePath = providers.environmentVariable("SIGNING_KEYSTORE_PATH").orNull
+    signingConfigs {
+        if (keystorePath != null) {
+            create("release") {
+                storeFile = file(keystorePath)
+                storePassword = providers.environmentVariable("SIGNING_STORE_PASSWORD").orNull
+                keyAlias = providers.environmentVariable("SIGNING_KEY_ALIAS").orNull
+                keyPassword = providers.environmentVariable("SIGNING_KEY_PASSWORD").orNull
+            }
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
             optimization {
+                // Whole-app R8. Restricting it to library packages (packageScope) made app
+                // classes extend renamed, now-inaccessible Kotlin classes and crash on start.
                 enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
             }
         }
     }

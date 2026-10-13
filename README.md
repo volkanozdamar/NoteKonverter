@@ -47,7 +47,9 @@ When you add a file, the app detects its format and offers the **other two** as 
 
 ## Installation
 
-There are no store releases yet. Build the app from source:
+Download the latest APK from the [**Releases**](https://github.com/volkanozdamar/NoteKonverter/releases/latest) page and install it. Android will ask you to allow installs from your browser or file manager.
+
+To build the app from source instead:
 
 ```bash
 git clone https://github.com/volkanozdamar/NoteKonverter.git

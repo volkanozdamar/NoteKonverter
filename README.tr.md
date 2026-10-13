@@ -47,7 +47,9 @@ Bir dosya eklendiğinde uygulama biçimini algılar ve **diğer iki biçimi** he
 
 ## Kurulum
 
-Henüz mağaza sürümü yok. Uygulamayı kaynak koddan derleyin:
+En son APK'yı [**Releases**](https://github.com/volkanozdamar/NoteKonverter/releases/latest) sayfasından indirip kurun. Android, tarayıcınızdan veya dosya yöneticinizden yükleme yapılmasına izin vermenizi isteyecektir.
+
+Uygulamayı kaynak koddan derlemek için:
 
 ```bash
 git clone https://github.com/volkanozdamar/NoteKonverter.git
